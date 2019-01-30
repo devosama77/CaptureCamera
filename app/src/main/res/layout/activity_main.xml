@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:text="Capture camera"
+    android:id="@+id/bn_capture_camera"
+    android:padding="10dp"
+    android:layout_marginTop="20dp"
+    android:onClick="captureImage"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Display Camera"
+        android:id="@+id/bn_display_camera"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="displayImage"
+        />
+
+</LinearLayout>
